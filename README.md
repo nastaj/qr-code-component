@@ -20,8 +20,8 @@ First project of the Frontend Mentor challenges, featuring a simple QR code comp
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/nastaj/qr-code-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/qr-code-component-using-sassscss-and-flexbox-qsOpbAHSGB)
+- Live Site URL: [GitHub Page](https://nastaj.github.io/qr-code-component/)
 
 ### Built with
 
