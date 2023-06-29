@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+$font-outfit: "Outfit", sans-serif;
+
+$white: hsl(0, 0%, 100%);
+$gray-light: hsl(212, 45%, 89%);
+$gray-blue: hsl(220, 15%, 55%);
+$blue-dark: hsl(218, 44%, 22%);
+
+$width-mobile: 375px;
+$width-desktop: 1440px;
+
+$paragraph-default: 15px;
+
+$font-weight--regular: 400;
+$font-weight--bold: 700;
+
+@mixin flexCenter($direction: row) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: $direction;
+}

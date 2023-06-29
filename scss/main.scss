@@ -1,0 +1,67 @@
+@import "./resets";
+@import "./variables";
+
+body {
+  font-family: $font-outfit;
+  background-color: $gray-light;
+}
+
+.page__container {
+  @include flexCenter;
+  height: 100vh;
+}
+
+.qr__container {
+  @include flexCenter(column);
+  background-color: $white;
+  border-radius: 1.6rem;
+  width: 36rem;
+  padding: 1.6rem;
+}
+
+.img__container {
+  img {
+    height: 32rem;
+    border-radius: 1.6rem;
+  }
+}
+
+.caption__container {
+  .caption--main {
+    font-size: 2.4rem;
+    color: $blue-dark;
+    font-weight: $font-weight--bold;
+    margin-bottom: 1.6rem;
+  }
+
+  .caption--secondary {
+    font-size: $paragraph-default;
+    color: $gray-blue;
+    font-weight: $font-weight--regular;
+  }
+
+  padding: 2.4rem;
+  text-align: center;
+}
+
+// Attribution
+.attribution {
+  background-color: $white;
+  padding: 1.6rem;
+  font-size: 1.4rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+// Media queries
+@media (max-width: 375px) {
+  .qr__container {
+    margin: 0 2.4rem;
+  }
+
+  .caption__container {
+    padding: 1.6rem 0.8rem;
+  }
+}
