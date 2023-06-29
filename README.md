@@ -32,5 +32,5 @@ First project of the Frontend Mentor challenges, featuring a simple QR code comp
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/nastaj)
+- Frontend Mentor - [@nastaj](https://www.frontendmentor.io/profile/nastaj)
 - Discord - [@aseirel]
